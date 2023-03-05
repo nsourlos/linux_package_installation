@@ -1,0 +1,16 @@
+#Pytorch installation with GPU - https://discuss.pytorch.org/t/runtimeerror-unexpected-error-from-cudagetdevicecount/139977/5
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+torch==1.10.1+cu113 
+torchvision==0.11.2+cu113
+torchaudio==0.10.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113/torch_stable.html
+
+#Install some other packages - For GPU tensorflow commands in bash script also needed
+pydicom==2.3.0
+opencv-python==4.6.0.66
+imutils==0.5.4
+graphviz==0.20.1
+nibabel==4.0.2
+MedPy==0.4.0
+tensorflow==2.9.0
