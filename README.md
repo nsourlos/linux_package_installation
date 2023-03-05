@@ -41,7 +41,7 @@ The **[second script](/requirements.txt)** is used to install `pip` packages, al
 - MedPy 0.4.0
 
 
-For the [GPU version](/GPU)the **[requirements script](/requirements.txt)** also contains GPU versions of [Tensorflow (2.9.0)](https://www.tensorflow.org/install/pip) and [PyTorch (1.10.1)](https://discuss.pytorch.org/t/runtimeerror-unexpected-error-from-cudagetdevicecount/139977/5). It installs cuda and cudnn toolkits. Moreover, the **[installs script](/installs.sh)** is updated and includes commands to enable mozilla touchscreen, install VisualStudio code, and change dual boot options when Ubuntu are installed along with Windows 10. If that is not the case, the script should be updated manually by the user. 
+For the [GPU version](/GPU) the **[requirements script](/GPU/requirements.txt)** also contains GPU versions of [Tensorflow (2.9.0)](https://www.tensorflow.org/install/pip) and [PyTorch (1.10.1)](https://discuss.pytorch.org/t/runtimeerror-unexpected-error-from-cudagetdevicecount/139977/5). It installs cuda and cudnn toolkits. Moreover, the **[installs script](/GPU/installs.sh)** is updated and includes commands to enable mozilla touchscreen, install VisualStudio code, and change dual boot options when Ubuntu are installed along with Windows 10. If that is not the case, the script should be updated manually by the user. 
 
 
 ## Contributing
